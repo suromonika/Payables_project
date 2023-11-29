@@ -1,0 +1,13 @@
+.TotalsPopupBoxElement {
+  min-width: 350px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 5px;
+  background-color: #d3eff7;
+  font-weight: 400;
+}
+
+.TotalsPopupBoxElement:nth-of-type(even) {
+  background-color: #e6e8ea;
+}

@@ -1,0 +1,26 @@
+.Filter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #10a9d42f;
+  margin: 5px auto;
+  padding: 5px;
+  color: #616e7c;
+  border-radius: 8px;
+}
+
+.Filter .SelectElement {
+  margin-right: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color: #616e7c;
+  background-color: #f7f7f8;
+}
+
+.Filter__label {
+  font-weight: 600;
+
+  margin-right: 10px;
+}

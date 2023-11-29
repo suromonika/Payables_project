@@ -1,0 +1,79 @@
+.OutputCard {
+  border-bottom: 1px solid #dddfe0;
+  border-top: 1px solid #dddfe0;
+  background-color: #fcfcfc;
+  color: #616e7c;
+  margin: 1px 0px;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.OutputCard:hover {
+  cursor: pointer;
+  scale: 1.01;
+}
+
+.OutputCard_name {
+  text-align: left;
+}
+
+.OutputCard_name h1 {
+  display: inline-block;
+  font-weight: 500;
+  background-color: #616e7c1d;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.OutputCard_amount {
+  display: flex;
+}
+
+.OutputCard__info-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.OutputCard__info-wrapper span {
+  padding: 5px;
+}
+
+.actions_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 30px;
+}
+
+.action_icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 26px;
+  height: 26px;
+}
+
+.action_icon:hover {
+  cursor: pointer;
+}
+
+.action_icon--comment {
+  background-image: url('../../../images/comment.png');
+  width: 28px;
+  margin-right: 5px;
+}
+
+.action_icon--delete {
+  background-image: url('../../../images/delete.png');
+}
+
+.secondary-text {
+  font-size: 14px;
+  color: #616e7c9b;
+  padding: 0px;
+}

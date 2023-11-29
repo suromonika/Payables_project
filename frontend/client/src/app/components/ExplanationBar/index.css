@@ -1,0 +1,22 @@
+.ExplanationBar {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #f7f7f8;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 5px auto;
+  color: #616e7c;
+  font-weight: 600;
+}
+
+.ExplanationBar span:first-of-type {
+  text-align: left;
+}
+
+.ExplanationBar span:last-of-type {
+  text-align: right;
+}

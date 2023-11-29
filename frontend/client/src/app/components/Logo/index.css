@@ -1,0 +1,8 @@
+.Logo {
+  width: 120px;
+  height: 90px;
+  background-image: url('../../../images/InvoTrack.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 5px 20px;
+}

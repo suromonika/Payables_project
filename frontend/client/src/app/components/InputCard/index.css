@@ -1,0 +1,40 @@
+.InputCard {
+  background-color: #f7f7f8;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  max-width: 700px;
+  align-self: center;
+  padding: 40px;
+  margin: 20px auto;
+}
+
+.Inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px;
+  margin-bottom: 20px;
+}
+
+.Inputs_invoice_amount_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+}
+
+.Inputs_invoice_amount_wrapper .SelectElement {
+  background-color: #d3eff7;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.InputCard_header {
+  font-weight: 700;
+  font-size: 23px;
+  margin-bottom: 40px;
+  color: #616e7c;
+}
+.light-text {
+  font-weight: 300;
+}

@@ -1,0 +1,21 @@
+.CustomButton {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  padding: 2px;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.CustomButton:hover {
+  background-color: #eaeced;
+  cursor: pointer;
+}
+
+.CustomButton img {
+  width: 20px;
+}
