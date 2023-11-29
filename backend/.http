@@ -1,0 +1,31 @@
+### Create an Invoice
+
+POST http://localhost:5005/api/invoices
+Content-Type: application/json
+
+{
+ 
+ "name": "Test",
+ "invoice_amount": 52,
+ "invoice_date": "2023-03-25",
+ "invoice_number": "478935418"
+
+}
+
+### Add to to pay list
+PUT  http://localhost:5005/api/invoices/64ca06d14dacef83fca5790d
+Content-Type: application/json
+
+
+
+
+
+### Delete invoice
+DELETE http://localhost:5005/api/invoices/64abcfd7e44e97043cb9d026
+
+### Show all completed orders
+GET http://localhost:5005/api/portfolio
+
+### Show all unpaid invoices
+GET http://localhost:5005/api/invoices
+
